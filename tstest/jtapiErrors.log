@@ -1,0 +1,346 @@
+2016-06-22 15:14:28,983 [AWT-EventQueue-0] ERROR com.avaya.jtapi.tsapi.tsapiInterface.TsapiSession - Tsapi<init>: com.avaya.jtapi.tsapi.TsapiPrivilegeViolationException: ACS Error: 25
+2016-06-22 15:14:28,984 [AWT-EventQueue-0] ERROR com.avaya.jtapi.tsapi.tsapiInterface.Tsapi - Tsapi<init>: com.avaya.jtapi.tsapi.TsapiPlatformException: initialization failed
+2016-06-22 15:26:03,378 [AWT-EventQueue-0] ERROR com.avaya.jtapi.tsapi.tsapiInterface.TsapiSession - Tsapi<init>: com.avaya.jtapi.tsapi.TsapiPrivilegeViolationException: ACS Error: 25
+2016-06-22 15:26:03,379 [AWT-EventQueue-0] ERROR com.avaya.jtapi.tsapi.tsapiInterface.Tsapi - Tsapi<init>: com.avaya.jtapi.tsapi.TsapiPlatformException: initialization failed
+2016-06-22 15:26:11,808 [AWT-EventQueue-0] ERROR com.avaya.jtapi.tsapi.tsapiInterface.TsapiSession - Tsapi<init>: com.avaya.jtapi.tsapi.TsapiPrivilegeViolationException: ACS Error: 25
+2016-06-22 15:26:11,808 [AWT-EventQueue-0] ERROR com.avaya.jtapi.tsapi.tsapiInterface.Tsapi - Tsapi<init>: com.avaya.jtapi.tsapi.TsapiPlatformException: initialization failed
+2016-06-22 15:27:33,007 [AWT-EventQueue-0] ERROR com.avaya.jtapi.tsapi.tsapiInterface.TsapiSession - Tsapi<init>: com.avaya.jtapi.tsapi.TsapiPrivilegeViolationException: ACS Error: 25
+2016-06-22 15:27:33,007 [AWT-EventQueue-0] ERROR com.avaya.jtapi.tsapi.tsapiInterface.Tsapi - Tsapi<init>: com.avaya.jtapi.tsapi.TsapiPlatformException: initialization failed
+2016-06-22 15:27:52,631 [AWT-EventQueue-0] ERROR com.avaya.jtapi.tsapi.tsapiInterface.Tsapi - Tsapi<init>: com.avaya.jtapi.tsapi.TsapiPlatformException: Couldn't find trust store file "avayaprca.jks".
+2016-06-22 15:28:57,505 [AWT-EventQueue-0] ERROR com.avaya.jtapi.tsapi.tsapiInterface.TsapiSession - Tsapi<init>: com.avaya.jtapi.tsapi.TsapiPrivilegeViolationException: ACS Error: 25
+2016-06-22 15:28:57,505 [AWT-EventQueue-0] ERROR com.avaya.jtapi.tsapi.tsapiInterface.Tsapi - Tsapi<init>: com.avaya.jtapi.tsapi.TsapiPlatformException: initialization failed
+2016-06-22 15:41:09,169 [AWT-EventQueue-0] ERROR com.avaya.jtapi.tsapi.tsapiInterface.TsapiSession - Tsapi<init>: com.avaya.jtapi.tsapi.TsapiPrivilegeViolationException: ACS Error: 25
+2016-06-22 15:41:09,169 [AWT-EventQueue-0] ERROR com.avaya.jtapi.tsapi.tsapiInterface.Tsapi - Tsapi<init>: com.avaya.jtapi.tsapi.TsapiPlatformException: initialization failed
+2016-06-22 15:41:24,206 [AWT-EventQueue-0] ERROR com.avaya.jtapi.tsapi.tsapiInterface.TsapiSession - Tsapi<init>: com.avaya.jtapi.tsapi.TsapiPrivilegeViolationException: ACS Error: 25
+2016-06-22 15:41:24,206 [AWT-EventQueue-0] ERROR com.avaya.jtapi.tsapi.tsapiInterface.Tsapi - Tsapi<init>: com.avaya.jtapi.tsapi.TsapiPlatformException: initialization failed
+2016-06-22 15:55:21,283 [AWT-EventQueue-0] ERROR com.avaya.jtapi.tsapi.impl.core.TSProviderImpl - CSTA Error: 12
+com.avaya.jtapi.tsapi.TsapiPlatformException: CSTA Error: 12
+	at com.avaya.jtapi.tsapi.tsapiInterface.TSErrorMap.throwCSTAException(TSErrorMap.java:100)
+	at com.avaya.jtapi.tsapi.tsapiInterface.TsapiSession.send(TsapiSession.java:577)
+	at com.avaya.jtapi.tsapi.tsapiInterface.TsapiSession.send(TsapiSession.java:453)
+	at com.avaya.jtapi.tsapi.tsapiInterface.Tsapi.queryDeviceInfo(Tsapi.java:1102)
+	at com.avaya.jtapi.tsapi.impl.core.TSProviderImpl.getDeviceExt(TSProviderImpl.java:1578)
+	at com.avaya.jtapi.tsapi.impl.core.TSCall.connect(TSCall.java:716)
+	at com.avaya.jtapi.tsapi.impl.TsapiCall.connect(TsapiCall.java:198)
+	at tstest.TSTestService.makeCall(TSTestService.java:144)
+	at tstest.ui.TSTestFrame$3.actionPerformed(TSTestFrame.java:259)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2018)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2341)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6516)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3321)
+	at java.awt.Component.processEvent(Component.java:6281)
+	at java.awt.Container.processEvent(Container.java:2229)
+	at java.awt.Component.dispatchEventImpl(Component.java:4872)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Component.dispatchEvent(Component.java:4698)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)
+	at java.awt.Container.dispatchEventImpl(Container.java:2273)
+	at java.awt.Window.dispatchEventImpl(Window.java:2719)
+	at java.awt.Component.dispatchEvent(Component.java:4698)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:747)
+	at java.awt.EventQueue.access$300(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:706)
+	at java.awt.EventQueue$3.run(EventQueue.java:704)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.awt.EventQueue$4.run(EventQueue.java:718)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:717)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+2016-06-22 16:38:55,059 [AWT-EventQueue-0] ERROR com.avaya.jtapi.tsapi.impl.core.TSProviderImpl - CSTA Error: 12
+com.avaya.jtapi.tsapi.TsapiPlatformException: CSTA Error: 12
+	at com.avaya.jtapi.tsapi.tsapiInterface.TSErrorMap.throwCSTAException(TSErrorMap.java:100)
+	at com.avaya.jtapi.tsapi.tsapiInterface.TsapiSession.send(TsapiSession.java:577)
+	at com.avaya.jtapi.tsapi.tsapiInterface.TsapiSession.send(TsapiSession.java:453)
+	at com.avaya.jtapi.tsapi.tsapiInterface.Tsapi.queryDeviceInfo(Tsapi.java:1102)
+	at com.avaya.jtapi.tsapi.impl.core.TSProviderImpl.getDeviceExt(TSProviderImpl.java:1578)
+	at com.avaya.jtapi.tsapi.impl.core.TSCall.connect(TSCall.java:716)
+	at com.avaya.jtapi.tsapi.impl.TsapiCall.connect(TsapiCall.java:198)
+	at tstest.TSTestService.makeCall(TSTestService.java:144)
+	at tstest.ui.TSTestFrame$3.actionPerformed(TSTestFrame.java:259)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2018)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2341)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6516)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3321)
+	at java.awt.Component.processEvent(Component.java:6281)
+	at java.awt.Container.processEvent(Container.java:2229)
+	at java.awt.Component.dispatchEventImpl(Component.java:4872)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Component.dispatchEvent(Component.java:4698)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)
+	at java.awt.Container.dispatchEventImpl(Container.java:2273)
+	at java.awt.Window.dispatchEventImpl(Window.java:2719)
+	at java.awt.Component.dispatchEvent(Component.java:4698)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:747)
+	at java.awt.EventQueue.access$300(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:706)
+	at java.awt.EventQueue$3.run(EventQueue.java:704)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.awt.EventQueue$4.run(EventQueue.java:718)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:717)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+2016-06-22 17:14:55,299 [AWT-EventQueue-0] ERROR com.avaya.jtapi.tsapi.impl.core.TSProviderImpl - CSTA Error: 12
+com.avaya.jtapi.tsapi.TsapiPlatformException: CSTA Error: 12
+	at com.avaya.jtapi.tsapi.tsapiInterface.TSErrorMap.throwCSTAException(TSErrorMap.java:100)
+	at com.avaya.jtapi.tsapi.tsapiInterface.TsapiSession.send(TsapiSession.java:577)
+	at com.avaya.jtapi.tsapi.tsapiInterface.TsapiSession.send(TsapiSession.java:453)
+	at com.avaya.jtapi.tsapi.tsapiInterface.Tsapi.queryDeviceInfo(Tsapi.java:1102)
+	at com.avaya.jtapi.tsapi.impl.core.TSProviderImpl.getDeviceExt(TSProviderImpl.java:1578)
+	at com.avaya.jtapi.tsapi.impl.core.TSCall.connect(TSCall.java:716)
+	at com.avaya.jtapi.tsapi.impl.TsapiCall.connect(TsapiCall.java:198)
+	at tstest.TSTestService.makeCall(TSTestService.java:144)
+	at tstest.ui.TSTestFrame$3.actionPerformed(TSTestFrame.java:259)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2018)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2341)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6516)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3321)
+	at java.awt.Component.processEvent(Component.java:6281)
+	at java.awt.Container.processEvent(Container.java:2229)
+	at java.awt.Component.dispatchEventImpl(Component.java:4872)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Component.dispatchEvent(Component.java:4698)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)
+	at java.awt.Container.dispatchEventImpl(Container.java:2273)
+	at java.awt.Window.dispatchEventImpl(Window.java:2719)
+	at java.awt.Component.dispatchEvent(Component.java:4698)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:747)
+	at java.awt.EventQueue.access$300(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:706)
+	at java.awt.EventQueue$3.run(EventQueue.java:704)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.awt.EventQueue$4.run(EventQueue.java:718)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:717)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+2016-06-22 17:15:40,582 [AWT-EventQueue-0] ERROR com.avaya.jtapi.tsapi.impl.core.TSProviderImpl - CSTA Error: 12
+com.avaya.jtapi.tsapi.TsapiPlatformException: CSTA Error: 12
+	at com.avaya.jtapi.tsapi.tsapiInterface.TSErrorMap.throwCSTAException(TSErrorMap.java:100)
+	at com.avaya.jtapi.tsapi.tsapiInterface.TsapiSession.send(TsapiSession.java:577)
+	at com.avaya.jtapi.tsapi.tsapiInterface.TsapiSession.send(TsapiSession.java:453)
+	at com.avaya.jtapi.tsapi.tsapiInterface.Tsapi.queryDeviceInfo(Tsapi.java:1102)
+	at com.avaya.jtapi.tsapi.impl.core.TSProviderImpl.getDeviceExt(TSProviderImpl.java:1578)
+	at com.avaya.jtapi.tsapi.impl.core.TSCall.connect(TSCall.java:716)
+	at com.avaya.jtapi.tsapi.impl.TsapiCall.connect(TsapiCall.java:198)
+	at tstest.TSTestService.makeCall(TSTestService.java:144)
+	at tstest.ui.TSTestFrame$3.actionPerformed(TSTestFrame.java:259)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2018)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2341)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6516)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3321)
+	at java.awt.Component.processEvent(Component.java:6281)
+	at java.awt.Container.processEvent(Container.java:2229)
+	at java.awt.Component.dispatchEventImpl(Component.java:4872)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Component.dispatchEvent(Component.java:4698)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)
+	at java.awt.Container.dispatchEventImpl(Container.java:2273)
+	at java.awt.Window.dispatchEventImpl(Window.java:2719)
+	at java.awt.Component.dispatchEvent(Component.java:4698)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:747)
+	at java.awt.EventQueue.access$300(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:706)
+	at java.awt.EventQueue$3.run(EventQueue.java:704)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.awt.EventQueue$4.run(EventQueue.java:718)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:717)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+2016-06-24 12:20:42,449 [AWT-EventQueue-0] ERROR com.avaya.jtapi.tsapi.tsapiInterface.TsapiSessionFactory - enumServices() </10.16.199.224:450>: com.avaya.jtapi.tsapi.TsapiPlatformException: Couldn't connect to server /10.16.199.224:450. Socket.connect() timed out after 20 seconds.
+2016-06-24 12:21:23,340 [AWT-EventQueue-0] ERROR com.avaya.jtapi.tsapi.tsapiInterface.TsapiSessionFactory - enumServices() </10.16.199.224:450>: com.avaya.jtapi.tsapi.TsapiPlatformException: Couldn't connect to server /10.16.199.224:450. Socket.connect() timed out after 20 seconds.
+2016-06-24 12:21:24,150 [AWT-EventQueue-0] ERROR com.avaya.jtapi.tsapi.tsapiInterface.TsapiSession - Tsapi<init>: com.avaya.jtapi.tsapi.TsapiPrivilegeViolationException: ACS Error: 25
+2016-06-24 12:21:24,150 [AWT-EventQueue-0] ERROR com.avaya.jtapi.tsapi.tsapiInterface.Tsapi - Tsapi<init>: com.avaya.jtapi.tsapi.TsapiPlatformException: initialization failed
+2016-06-24 12:23:12,896 [AWT-EventQueue-0] ERROR com.avaya.jtapi.tsapi.tsapiInterface.TsapiSessionFactory - enumServices() </10.16.199.224:450>: com.avaya.jtapi.tsapi.TsapiPlatformException: Couldn't connect to server /10.16.199.224:450. Socket.connect() timed out after 20 seconds.
+2016-06-24 12:24:19,010 [AWT-EventQueue-0] ERROR com.avaya.jtapi.tsapi.tsapiInterface.TsapiSessionFactory - enumServices() </10.16.199.224:450>: com.avaya.jtapi.tsapi.TsapiPlatformException: Couldn't connect to server /10.16.199.224:450. Socket.connect() timed out after 20 seconds.
+2016-06-24 12:24:19,217 [AWT-EventQueue-0] ERROR com.avaya.jtapi.tsapi.tsapiInterface.TsapiSession - Tsapi<init>: com.avaya.jtapi.tsapi.TsapiPrivilegeViolationException: ACS Error: 25
+2016-06-24 12:24:19,218 [AWT-EventQueue-0] ERROR com.avaya.jtapi.tsapi.tsapiInterface.Tsapi - Tsapi<init>: com.avaya.jtapi.tsapi.TsapiPlatformException: initialization failed
+2016-06-24 12:24:59,802 [AWT-EventQueue-0] ERROR com.avaya.jtapi.tsapi.tsapiInterface.TsapiSessionFactory - enumServices() </10.16.199.224:450>: com.avaya.jtapi.tsapi.TsapiPlatformException: Couldn't connect to server /10.16.199.224:450. Socket.connect() timed out after 20 seconds.
+2016-06-24 12:25:32,900 [AWT-EventQueue-0] ERROR com.avaya.jtapi.tsapi.tsapiInterface.TsapiSessionFactory - enumServices() </10.16.199.224:450>: com.avaya.jtapi.tsapi.TsapiPlatformException: Couldn't connect to server /10.16.199.224:450. Socket.connect() timed out after 20 seconds.
+2016-06-24 12:26:46,420 [AWT-EventQueue-0] ERROR com.avaya.jtapi.tsapi.tsapiInterface.TsapiSessionFactory - enumServices() </10.16.199.224:450>: com.avaya.jtapi.tsapi.TsapiPlatformException: Couldn't connect to server /10.16.199.224:450. Socket.connect() timed out after 20 seconds.
+2016-06-24 12:26:46,706 [AWT-EventQueue-0] ERROR com.avaya.jtapi.tsapi.tsapiInterface.TsapiSession - Tsapi<init>: com.avaya.jtapi.tsapi.TsapiPrivilegeViolationException: ACS Error: 25
+2016-06-24 12:26:46,706 [AWT-EventQueue-0] ERROR com.avaya.jtapi.tsapi.tsapiInterface.Tsapi - Tsapi<init>: com.avaya.jtapi.tsapi.TsapiPlatformException: initialization failed
+2016-06-24 12:29:03,297 [AWT-EventQueue-0] ERROR com.avaya.jtapi.tsapi.tsapiInterface.TsapiSessionFactory - enumServices() </10.16.199.224:450>: com.avaya.jtapi.tsapi.TsapiPlatformException: Couldn't connect to server /10.16.199.224:450. Socket.connect() timed out after 20 seconds.
+2016-06-24 12:29:44,695 [AWT-EventQueue-0] ERROR com.avaya.jtapi.tsapi.tsapiInterface.TsapiSessionFactory - enumServices() </10.16.199.224:450>: com.avaya.jtapi.tsapi.TsapiPlatformException: Couldn't connect to server /10.16.199.224:450. Socket.connect() timed out after 20 seconds.
+2016-06-24 12:29:44,888 [AWT-EventQueue-0] ERROR com.avaya.jtapi.tsapi.tsapiInterface.TsapiSession - Tsapi<init>: com.avaya.jtapi.tsapi.TsapiPrivilegeViolationException: ACS Error: 25
+2016-06-24 12:29:44,888 [AWT-EventQueue-0] ERROR com.avaya.jtapi.tsapi.tsapiInterface.Tsapi - Tsapi<init>: com.avaya.jtapi.tsapi.TsapiPlatformException: initialization failed
+2016-06-24 12:30:48,528 [AWT-EventQueue-0] ERROR com.avaya.jtapi.tsapi.tsapiInterface.TsapiSessionFactory - enumServices() </10.16.199.225:450>: com.avaya.jtapi.tsapi.TsapiPlatformException: Couldn't connect to server /10.16.199.225:450. Socket.connect() timed out after 20 seconds.
+2016-06-24 12:31:29,224 [AWT-EventQueue-0] ERROR com.avaya.jtapi.tsapi.tsapiInterface.TsapiSessionFactory - enumServices() </10.16.199.225:450>: com.avaya.jtapi.tsapi.TsapiPlatformException: Couldn't connect to server /10.16.199.225:450. Socket.connect() timed out after 20 seconds.
+2016-06-24 12:31:30,031 [AWT-EventQueue-0] ERROR com.avaya.jtapi.tsapi.tsapiInterface.Tsapi - Tsapi<init>: com.avaya.jtapi.tsapi.TsapiPlatformException: The TLS connection was closed because a network-level error occured during the SSL handshake; javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+2016-06-24 12:44:52,034 [AWT-EventQueue-0] ERROR com.avaya.jtapi.tsapi.tsapiInterface.TsapiSessionFactory - enumServices() </10.16.199.224:450>: com.avaya.jtapi.tsapi.TsapiPlatformException: Couldn't connect to server /10.16.199.224:450. Socket.connect() timed out after 20 seconds.
+2016-06-24 12:45:22,425 [AWT-EventQueue-0] ERROR com.avaya.jtapi.tsapi.tsapiInterface.TsapiSessionFactory - enumServices() </10.16.199.224:450>: com.avaya.jtapi.tsapi.TsapiPlatformException: Couldn't connect to server /10.16.199.224:450. Socket.connect() timed out after 20 seconds.
+2016-06-24 12:45:22,684 [AWT-EventQueue-0] ERROR com.avaya.jtapi.tsapi.tsapiInterface.TsapiSession - Tsapi<init>: com.avaya.jtapi.tsapi.TsapiPrivilegeViolationException: ACS Error: 25
+2016-06-24 12:45:22,684 [AWT-EventQueue-0] ERROR com.avaya.jtapi.tsapi.tsapiInterface.Tsapi - Tsapi<init>: com.avaya.jtapi.tsapi.TsapiPlatformException: initialization failed
+2016-06-24 13:22:49,010 [AWT-EventQueue-0] ERROR com.avaya.jtapi.tsapi.tsapiInterface.TsapiSessionFactory - enumServices() </10.16.199.224:450>: com.avaya.jtapi.tsapi.TsapiPlatformException: Couldn't connect to server /10.16.199.224:450. Socket.connect() timed out after 20 seconds.
+2016-06-24 14:07:31,263 [AWT-EventQueue-0] ERROR com.avaya.jtapi.tsapi.tsapiInterface.Tsapi - Invalid name value pair in : 10.16.199.223 
+2016-06-24 14:07:51,556 [AWT-EventQueue-0] ERROR com.avaya.jtapi.tsapi.tsapiInterface.TsapiSessionFactory - enumServices() </10.16.199.223:450>: com.avaya.jtapi.tsapi.TsapiPlatformException: Couldn't connect to server /10.16.199.223:450. Socket.connect() timed out after 20 seconds.
+2016-06-24 14:08:37,656 [AWT-EventQueue-0] ERROR com.avaya.jtapi.tsapi.tsapiInterface.TsapiSessionFactory - enumServices() </10.16.199.223:450>: com.avaya.jtapi.tsapi.TsapiPlatformException: Couldn't connect to server /10.16.199.223:450. Socket.connect() timed out after 20 seconds.
+2016-06-24 14:08:38,194 [AWT-EventQueue-0] ERROR com.avaya.jtapi.tsapi.tsapiInterface.TsapiSession - Tsapi<init>: com.avaya.jtapi.tsapi.TsapiPrivilegeViolationException: ACS Error: 25
+2016-06-24 14:08:38,195 [AWT-EventQueue-0] ERROR com.avaya.jtapi.tsapi.tsapiInterface.Tsapi - Tsapi<init>: com.avaya.jtapi.tsapi.TsapiPlatformException: initialization failed
+2016-06-24 14:17:32,855 [AWT-EventQueue-0] ERROR com.avaya.jtapi.tsapi.tsapiInterface.TsapiSessionFactory - enumServices() </10.16.199.223:450>: com.avaya.jtapi.tsapi.TsapiPlatformException: Couldn't connect to server /10.16.199.223:450. Socket.connect() timed out after 20 seconds.
+2016-07-21 15:18:13,915 [AWT-EventQueue-0] ERROR com.avaya.jtapi.tsapi.tsapiInterface.Tsapi - Invalid name value pair in : 10.16.199.223 
+2016-07-21 15:18:34,301 [AWT-EventQueue-0] ERROR com.avaya.jtapi.tsapi.tsapiInterface.TsapiSessionFactory - enumServices() </10.16.199.223:450>: com.avaya.jtapi.tsapi.TsapiPlatformException: Couldn't connect to server /10.16.199.223:450. Socket.connect() timed out after 20 seconds.
+2016-07-21 15:20:28,435 [AWT-EventQueue-0] ERROR com.avaya.jtapi.tsapi.tsapiInterface.TsapiSessionFactory - enumServices() </10.16.199.223:450>: com.avaya.jtapi.tsapi.TsapiPlatformException: Couldn't connect to server /10.16.199.223:450. Socket.connect() timed out after 20 seconds.
+2016-07-21 15:20:28,793 [AWT-EventQueue-0] ERROR com.avaya.jtapi.tsapi.tsapiInterface.TsapiSession - Tsapi<init>: com.avaya.jtapi.tsapi.TsapiPrivilegeViolationException: ACS Error: 25
+2016-07-21 15:20:28,793 [AWT-EventQueue-0] ERROR com.avaya.jtapi.tsapi.tsapiInterface.Tsapi - Tsapi<init>: com.avaya.jtapi.tsapi.TsapiPlatformException: initialization failed
+2016-07-21 15:31:13,085 [AWT-EventQueue-0] ERROR com.avaya.jtapi.tsapi.impl.core.TSProviderImpl - ACS Error: 35
+com.avaya.jtapi.tsapi.TsapiPrivilegeViolationException: ACS Error: 35
+	at com.avaya.jtapi.tsapi.tsapiInterface.TSErrorMap.throwACSException(TSErrorMap.java:43)
+	at com.avaya.jtapi.tsapi.tsapiInterface.TsapiSession.send(TsapiSession.java:581)
+	at com.avaya.jtapi.tsapi.tsapiInterface.TsapiSession.send(TsapiSession.java:453)
+	at com.avaya.jtapi.tsapi.tsapiInterface.Tsapi.queryDeviceInfo(Tsapi.java:1102)
+	at com.avaya.jtapi.tsapi.impl.core.TSProviderImpl.getDeviceExt(TSProviderImpl.java:1578)
+	at com.avaya.jtapi.tsapi.impl.core.TSCall.connect(TSCall.java:716)
+	at com.avaya.jtapi.tsapi.impl.TsapiCall.connect(TsapiCall.java:198)
+	at tstest.TSTestService.makeCall(TSTestService.java:152)
+	at tstest.ui.TSTestFrame$3.actionPerformed(TSTestFrame.java:259)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2018)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2341)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6516)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3321)
+	at java.awt.Component.processEvent(Component.java:6281)
+	at java.awt.Container.processEvent(Container.java:2229)
+	at java.awt.Component.dispatchEventImpl(Component.java:4872)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Component.dispatchEvent(Component.java:4698)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)
+	at java.awt.Container.dispatchEventImpl(Container.java:2273)
+	at java.awt.Window.dispatchEventImpl(Window.java:2719)
+	at java.awt.Component.dispatchEvent(Component.java:4698)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:747)
+	at java.awt.EventQueue.access$300(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:706)
+	at java.awt.EventQueue$3.run(EventQueue.java:704)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.awt.EventQueue$4.run(EventQueue.java:718)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:717)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+2016-07-21 15:31:25,164 [AWT-EventQueue-0] ERROR com.avaya.jtapi.tsapi.impl.core.TSProviderImpl - ACS Error: 35
+com.avaya.jtapi.tsapi.TsapiPrivilegeViolationException: ACS Error: 35
+	at com.avaya.jtapi.tsapi.tsapiInterface.TSErrorMap.throwACSException(TSErrorMap.java:43)
+	at com.avaya.jtapi.tsapi.tsapiInterface.TsapiSession.send(TsapiSession.java:581)
+	at com.avaya.jtapi.tsapi.tsapiInterface.TsapiSession.send(TsapiSession.java:453)
+	at com.avaya.jtapi.tsapi.tsapiInterface.Tsapi.queryDeviceInfo(Tsapi.java:1102)
+	at com.avaya.jtapi.tsapi.impl.core.TSProviderImpl.getDeviceExt(TSProviderImpl.java:1578)
+	at com.avaya.jtapi.tsapi.impl.core.TSCall.connect(TSCall.java:716)
+	at com.avaya.jtapi.tsapi.impl.TsapiCall.connect(TsapiCall.java:198)
+	at tstest.TSTestService.makeCall(TSTestService.java:152)
+	at tstest.ui.TSTestFrame$3.actionPerformed(TSTestFrame.java:259)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2018)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2341)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6516)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3321)
+	at java.awt.Component.processEvent(Component.java:6281)
+	at java.awt.Container.processEvent(Container.java:2229)
+	at java.awt.Component.dispatchEventImpl(Component.java:4872)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Component.dispatchEvent(Component.java:4698)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)
+	at java.awt.Container.dispatchEventImpl(Container.java:2273)
+	at java.awt.Window.dispatchEventImpl(Window.java:2719)
+	at java.awt.Component.dispatchEvent(Component.java:4698)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:747)
+	at java.awt.EventQueue.access$300(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:706)
+	at java.awt.EventQueue$3.run(EventQueue.java:704)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.awt.EventQueue$4.run(EventQueue.java:718)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:717)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+2016-09-22 14:43:53,361 [AWT-EventQueue-0] ERROR com.avaya.jtapi.tsapi.tsapiInterface.TsapiSession - Tsapi<init>: com.avaya.jtapi.tsapi.TsapiPrivilegeViolationException: ACS Error: 25
+2016-09-22 14:43:53,362 [AWT-EventQueue-0] ERROR com.avaya.jtapi.tsapi.tsapiInterface.Tsapi - Tsapi<init>: com.avaya.jtapi.tsapi.TsapiPlatformException: initialization failed
+2016-09-22 14:44:30,687 [AWT-EventQueue-0] ERROR com.avaya.jtapi.tsapi.tsapiInterface.TsapiSession - Tsapi<init>: com.avaya.jtapi.tsapi.TsapiPrivilegeViolationException: ACS Error: 25
+2016-09-22 14:44:30,687 [AWT-EventQueue-0] ERROR com.avaya.jtapi.tsapi.tsapiInterface.Tsapi - Tsapi<init>: com.avaya.jtapi.tsapi.TsapiPlatformException: initialization failed
+2016-09-22 14:44:54,878 [AWT-EventQueue-0] ERROR com.avaya.jtapi.tsapi.tsapiInterface.TsapiSession - Tsapi<init>: com.avaya.jtapi.tsapi.TsapiPrivilegeViolationException: ACS Error: 25
+2016-09-22 14:44:54,878 [AWT-EventQueue-0] ERROR com.avaya.jtapi.tsapi.tsapiInterface.Tsapi - Tsapi<init>: com.avaya.jtapi.tsapi.TsapiPlatformException: initialization failed
+2016-09-22 14:47:28,046 [AWT-EventQueue-0] ERROR com.avaya.jtapi.tsapi.tsapiInterface.TsapiSession - Tsapi<init>: com.avaya.jtapi.tsapi.TsapiPrivilegeViolationException: ACS Error: 25
+2016-09-22 14:47:28,047 [AWT-EventQueue-0] ERROR com.avaya.jtapi.tsapi.tsapiInterface.Tsapi - Tsapi<init>: com.avaya.jtapi.tsapi.TsapiPlatformException: initialization failed
+2016-09-22 14:49:10,604 [AWT-EventQueue-0] ERROR com.avaya.jtapi.tsapi.tsapiInterface.TsapiSession - Tsapi<init>: com.avaya.jtapi.tsapi.TsapiPrivilegeViolationException: ACS Error: 25
+2016-09-22 14:49:10,604 [AWT-EventQueue-0] ERROR com.avaya.jtapi.tsapi.tsapiInterface.Tsapi - Tsapi<init>: com.avaya.jtapi.tsapi.TsapiPlatformException: initialization failed
+2016-09-22 14:49:46,854 [AWT-EventQueue-0] ERROR com.avaya.jtapi.tsapi.tsapiInterface.TsapiSession - Tsapi<init>: com.avaya.jtapi.tsapi.TsapiPrivilegeViolationException: ACS Error: 25
+2016-09-22 14:49:46,855 [AWT-EventQueue-0] ERROR com.avaya.jtapi.tsapi.tsapiInterface.Tsapi - Tsapi<init>: com.avaya.jtapi.tsapi.TsapiPlatformException: initialization failed
+2016-09-22 14:50:23,853 [AWT-EventQueue-0] ERROR com.avaya.jtapi.tsapi.tsapiInterface.Tsapi - Invalid name value pair in : 10.13.18.20
